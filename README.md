@@ -25,7 +25,7 @@ Access to pdf resume. About information, Projects, Contacts page,
 
 **Sitemap screenshots:**
 
-![Site map](Sitemap.png)
+![Sitemap Update](SitemapUpdate.png)
 
 **Target audience:** 
 
