@@ -1,0 +1,103 @@
+/*I would of like to link my five images to the headings but ran out of time*/
+section{
+    display:flex;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.container1{
+    background-image: url("blog/Art.png") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 50px;
+    color:chartreuse;  
+    margin:3px;
+    padding:0;
+    border:0;
+    display: flex;
+    flex-grow: 3;
+
+}
+.container2{
+    background-image: url("blog/Books.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 45px;
+    color:rgb(60, 74, 33);  
+    margin:3px;
+    padding:0;
+    border:0;
+    display: flex;
+    flex-grow: 1;
+}   
+.container3{
+    background-image: url("blog/desk.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 50px;
+    color: pink;  
+    margin:3px;
+    padding:0;
+    border:0;
+    display: flex;
+    flex-grow: 4;
+}
+.container4{
+    background-image: url("blog/island.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 50px;
+    color:Red;  
+    margin:3px;
+    padding:0;
+    border:0;
+    
+}
+.container5{
+    background-image: url("blog/stars.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 50px;
+    color:sandybrown;  
+    margin:3px;
+    padding:0;
+    border:0;
+}
+
+div{
+    display:flex;
+    flex-direction: row;    
+}
+.flexone{
+    display: flex;
+    flex-direction: column;
+}
+.flextwo{
+    display:flex;
+    flex-direction:column;
+}
+section{
+    display:flex;
+    justify-content: center;
+    
+}
+.imageLayout{
+    height:400px;
+}
+.Header{
+    display:flex;
+    justify-content: space-between;
+}
+.textwidth{
+    max-width: 870px;
+}
+body{
+    background-color:aliceblue;
+}
+
+
+
+

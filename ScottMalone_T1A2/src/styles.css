@@ -1,0 +1,83 @@
+
+h1{
+    color:white;
+    padding: 0%;
+    font-size: 300%;
+}
+.resume{ /*Designing the button*/
+    color:black;
+    padding:10px;
+    background-color: red;
+    font-size: 75%;
+    border-radius: 15px 15px 15px 15px;
+}
+
+@media all and (min-width:700px) { /*media queries to allow the website to be responsive*/
+    h1{
+        font-size:600%;
+    }
+}
+h2{
+    color:white;
+    font-size: 175%;
+    margin:0;
+}
+@media all and (min-width:700px) {
+    h2{
+        font-size:400%;
+    }
+    .resume{
+    color:black;
+    padding:10px;
+    background-color: red;
+    font-size: 125%;
+}
+}
+body{/*importing background image and setting*/
+    height: 100%;
+    background-image: url("pics/PipeBack.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center   
+}
+
+section{ /*defining the overall layout*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    padding-top: 150px;
+    }
+
+nav{
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+    padding: 2%;
+    width: 100%;
+    font-size: 125%;
+}
+
+html{
+
+    width:auto;
+    height:100%;
+}
+
+a{  /*decorating text in navigation*/
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+img{    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+

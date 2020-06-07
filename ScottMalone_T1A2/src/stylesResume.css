@@ -1,0 +1,10 @@
+.container{/*add some padding to resume view to make it more aesthetically pleasing.*/
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+   
+}
+iframe{ /*Setting the width of the view of the resume*/
+    width: 100vw;
+    height: 100vh;
+}
