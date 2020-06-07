@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin:0;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 2%;
+    font-size:125%;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+h2{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+p{
+    padding: 20px;
+}
+img{
+    padding-top: 50px;
+    width: 100vw;
+    
+}
+h1{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+div{
+    padding-top: 20px;   
+}
+ul{
+   padding-left: 50px;
+   padding-top: 20px;
+}
+h4{
+    list-style-type: none;
+    padding-top: 20px;
+}
+li{
+    padding:5px;
+}
+
+@media all and (min-width:800px){
+    section div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .matlab{
+        display:flex;
+    }
+    div.MatlabWords{
+        display: flex;
+        flex-direction: column;
+    }
+    .matlab img{
+        width: 100%;
+        max-width: 600px;
+    }
+    .C img{
+        width:100%;
+        max-width: 600px;
+    }
+    .C{
+        display: flex;
+    }
+    div.CWords{
+        display:flex;
+        flex-direction: column;
+    }
+    .VHDL img{
+        width:100%;
+        max-width: 600px;
+    }
+    .VHDL{
+        display:flex;
+    }
+    div.VHDLtext{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        display:flex;
+        justify-content: center;
+    }
+    .firstparagraph{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    section div p{
+        max-width: 500px;
+    }
+    section div ul{
+        max-width: 500px;
+    }
+    
+    
+   
+}
+
+
